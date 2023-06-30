@@ -95,9 +95,10 @@ section{
 .three_body{
    
     display: flex;
-    background-image: url('/aquafina/11.png');
+    background-image: url('./11.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
     
 }
 .three_body img{
@@ -159,7 +160,6 @@ button:hover{
     margin-left: 15%;
 }
 .four_foot{
-   
     display: flex;
     font-size: 14px;
     font-family: sans-serif;
@@ -201,7 +201,7 @@ button:hover{
    margin-top: 30px;
 }
 .five_footer{
-   
+    border-top: 1px dashed rgba(184, 184, 181, .5);
 text-align: center;
 color: #0047ba;
 margin-top: 6%;
@@ -210,7 +210,13 @@ font-size: 11px;
 line-height: 17px;
 background-color: white;
 
+padding-bottom: 20px;
+line-height: 1.5;
+padding-left: 30px;
+padding-right: 30px;
+
 }
+
 .extra{
     
     border: 2px solid #dcf024;
@@ -238,15 +244,18 @@ background-color: white;
    
     height: 26px;
     width: 26px;
-    padding-left: 19%;
+    padding-left: 21%;
+    padding-top: 20%;
 }
 
 .fa-facebook-f{
-    padding-left: 26%;
+    padding-left: 30%;
+    padding-top: 30%;
 }
 
 .fa-twitter{
-    padding-left: 20%;
+    padding-left: 23%;
+    padding-top: 25%;
 }
 
 
@@ -263,7 +272,7 @@ background-color: white;
    
     margin-left: 10px;
     border-radius: 50%;
-    background-image:url('/aquafina/000.jpg');
+    background-image:url('./000.jpg');
     color: aliceblue;
     height: 26px;
     width: 26px;
